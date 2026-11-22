@@ -1,0 +1,25 @@
+AMPUL WIDGET - KURULUM
+
+0) .env.example dosyasini .env olarak kopyala ve iot.tuya.com'daki kendi
+   Access ID / Access Secret degerlerini yaz. .env dosyasini kimseyle paylasma.
+
+1) Bilgisayarda Python yoksa https://www.python.org/downloads/ adresinden kur.
+   Kurulumun ilk ekranında "Add python.exe to PATH" kutusunu işaretle.
+   (Sadece exe oluşturmak için bir kez gerekiyor.)
+
+2) Bu klasördeki kur.bat dosyasına çift tıkla.
+   - Gerekli paketleri yükler
+   - Ampul.exe oluşturur
+   - Masaüstüne ve Başlat menüsüne "Ampul" kısayolu ekler
+
+3) Artık masaüstündeki Ampul simgesinden açabilirsin.
+
+KULLANIM
+- Başlıktan sürükleyerek taşı
+- "—" ile görev çubuğuna küçült, görev çubuğundaki simgeye tıklayınca geri gelir
+- Ortadaki yuvarlak düğme: aç / kapat
+- Sağ tık menüsü: her zaman üstte, yeniden bağlan, cihaz seç, QR ile bağlan
+- Alttaki yeşil nokta: yerel ağ (hızlı) / sarı nokta: bulut üzerinden
+
+Ayarlar şurada tutulur: %APPDATA%\AmpulWidget\ampul_config.json
+Kodda değişiklik yaparsan kur.bat'ı tekrar çalıştırman yeterli.
